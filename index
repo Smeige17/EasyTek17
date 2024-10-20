@@ -1,0 +1,116 @@
+<!doctype html> 
+<html lang="fr">
+  <!-- vérifier le texte avec carré jaune, inspecter version mobile, encart pub et promo,
+   beautifuler le code encore 1 fois, ajouter les information de devis, contact et réseaux -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="icone2_easytek17.png">
+    <title>EasyTek17 - Accueil</title>
+  </head>
+  <body>
+    <!-- verifier le header pour faire encore plus court -->
+    <header>
+      <img src="logo_easytek17.jpeg" alt="Logo EasyTek17" class="logo" />
+      <nav>
+        <ul>
+          <li>
+              <a href="index.html">
+                  <img src="icone1_easytek17.png" alt="Logo Accueil" class="icon" />Accueil</a>
+          </li>
+          <li>
+              <a href="A_propos.html">
+                  <img src="icone1_easytek17.png" alt="Logo A propos" class="icon" />A propos</a>
+          </li>
+          <li>
+              <a href="Produits_et_Services.html">
+                  <img src="icone1_easytek17.png" alt="Logo Produits et Services" class="icon" />Produits et Services</a>
+          </li>
+          <li>
+              <a href="Contact.html">
+                  <img src="icone1_easytek17.png" alt="Logo Contact" class="icon" />Contact</a>
+          </li>
+      </ul>
+      </nav>
+    </header>
+    <!-- verifier si ajout br est mieux que seulement p -->
+    <main>
+      <div class="banner">
+            <p>15% de réduction sur tout le site jusqu'à dimanche !</p>
+        </a>
+    </div>
+      <h1>Bienvenue chez EasyTek17</h1>
+      <p>
+        EasyTek17 est votre partenaire de confiance pour la vente et la réparation d'ordinateurs. Notre équipe est
+        dédiée à fournir des solutions informatiques de qualité.
+      </p>
+      <h2>Présentation de l’Entreprise EasyTek17</h2>
+    <p>
+        Située au cœur de Lagord, EasyTek17 est une entreprise spécialisée dans la vente et la réparation d’ordinateurs. 
+        Fondée en 2017 par Jean Dupont, un passionné de technologie, EasyTek17 s’est rapidement imposée comme un acteur 
+        incontournable dans le domaine de l’informatique.
+    </p>
+    <h2>Nos Produits</h2>
+    <p>Chez EasyTek17, nous proposons une large gamme de produits pour répondre à tous vos besoins informatiques :</p>
+    <ul>
+        <li><strong>Ordinateurs Portables et de Bureau :</strong> Des modèles adaptés aux étudiants, professionnels et gamers.</li>
+        <li><strong>Accessoires Informatiques :</strong> Claviers, souris, casques, webcams, et bien plus.</li>
+        <li><strong>Composants Internes :</strong> Processeurs, cartes mères, cartes graphiques, etc.</li>
+        <li><strong>Logiciels :</strong> Systèmes d’exploitation, suites bureautiques, logiciels de sécurité.</li>
+    </ul>
+    <h2>Nos Services</h2>
+    <p>Nous offrons également une variété de services pour garantir le bon fonctionnement de vos équipements :</p>
+    <ul>
+        <li><strong>Réparation d’Ordinateurs :</strong> Diagnostic et réparation de pannes matérielles et logicielles.</li>
+        <li><strong>Maintenance Préventive :</strong> Nettoyage interne et mise à jour des logiciels.</li>
+        <li><strong>Assistance Technique :</strong> Support téléphonique et en ligne, formation et conseils personnalisés.</li>
+        <li><strong>Installation et Configuration :</strong> Installation de nouveaux équipements et configuration de réseaux.</li>
+        <li><strong>Récupération de Données :</strong> Services de récupération de données sur disques durs endommagés.</li>
+        <li><strong>Vente de Matériel Reconditionné :</strong> Ordinateurs et accessoires reconditionnés avec garantie.</li>
+    </ul>
+      <section>
+        <h2>Demande de Devis</h2>
+        <p>Pour toute demande de devis, veuillez nous contacter ou utiliser notre formulaire.</p>
+        <form action="#" method="POST">
+          <label for="nom">Nom :</label><br>
+          <input type="text" id="nom" name="nom" required><br><br>
+          <label for="email">Email :</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+          <label for="telephone">Téléphone :</label><br>
+          <input type="tel" id="telephone" name="telephone"><br><br>
+          <label for="service">Service demandé :</label><br>
+          <input type="text" id="service" name="service" required><br><br>
+          <label for="message">Détails supplémentaires :</label><br>
+          <textarea id="message" name="message" rows="3" cols="45"></textarea><br>
+          <button type="submit">Envoyer</button>
+        </form>
+      </section>
+      <h2>FAQ - Foire Aux Questions</h2>
+      <section>
+        <h3>1. Quels services proposez-vous ?</h3>
+        <p>Nous proposons des services de réparation d'ordinateurs, de vente de matériel informatique et d'assistance technique.</p>
+        <h3>2. Comment puis-je demander un devis ?</h3>
+        <p>Vous pouvez demander un devis en remplissant notre formulaire de demande de devis disponible sur notre site. Vous recevrez une réponse dans les 48 heures.</p>
+        <h3>3. Quels types d'appareils réparez-vous ?</h3>
+        <p>Nous réparons les ordinateurs portables et de bureau, ainsi que certains appareils connectés comme les tablettes et smartphones.</p>
+        <h3>4. Où êtes-vous situés ?</h3>
+        <p>Nous sommes situés à Lagord, près de La Rochelle, en Charente-Maritime.</p>
+        <h3>5. Proposez-vous un service de récupération de données ?</h3>
+        <p>Oui, nous proposons un service de récupération de données en cas de panne de votre appareil ou de disque dur.</p>
+      </section>
+    </main>
+    <!-- footer rajout autre info ? -->
+    <footer>
+      <div id="newsletter">
+        <h2>Inscrivez-vous à notre Newsletter</h2>
+        <img src="icone2_easytek17.png" alt="Logo Contact" class="icon" />
+        <form action="submit_newsletter.php" method="post">
+            <input type="email" name="email" placeholder="Entrez votre e-mail" required>
+            <button type="submit">S'inscrire</button>
+        </form>
+    </div>
+      <p>&copy; 2024 EasyTek17. Tous droits réservés.</p>
+    </footer>
+  </body>
+</html>
