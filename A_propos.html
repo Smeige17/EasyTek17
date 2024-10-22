@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="fr">
-  <!-- Beaucoup de texte, peut-etre rajouter photo et video -->
+  <!-- Page avec info sur EasyTek -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,24 +10,24 @@
   </head>
   <body>
     <header>
-      <img src="logo_easytek17.jpeg" alt="Logo EasyTek17" class="logo" />
+      <img src="logo_easytek17.jpeg" alt="Logo EasyTek17" title="Logo EasyTek17" class="logo" />
       <nav>
         <ul>
           <li>
               <a href="index.html">
-                  <img src="icone1_easytek17.png" alt="Logo Accueil" class="icon" />Accueil</a>
+                  <img src="icone1_easytek17.png" alt="Logo Accueil" title="Logo EasyTek17" class="icon" />Accueil</a>
           </li>
           <li>
               <a href="A_propos.html">
-                  <img src="icone1_easytek17.png" alt="Logo A propos" class="icon" />A propos</a>
+                  <img src="icone1_easytek17.png" alt="Logo A propos" title="Logo EasyTek17" class="icon" />A propos</a>
           </li>
           <li>
               <a href="Produits_et_Services.html">
-                  <img src="icone1_easytek17.png" alt="Logo Produits et Services" class="icon" />Produits et Services</a>
+                  <img src="icone1_easytek17.png" alt="Logo Produits et Services" title="Logo EasyTek17" class="icon" />Produits et Services</a>
           </li>
           <li>
               <a href="Contact.html">
-                  <img src="icone1_easytek17.png" alt="Logo Contact" class="icon" />Contact</a>
+                  <img src="icone1_easytek17.png" alt="Logo Contact" title="Logo EasyTek17" class="icon" />Contact</a>
           </li>
       </ul>
       </nav>
@@ -38,6 +38,7 @@
             <p>Nouveaux PC portables !</p>
         </a>
     </div>
+    <!-- Un petit tableau car peut-etre oublié dans le cahier des charges  -->
     <body>
       <h1>Horaires d'ouverture d'EasyTek17</h1>
       <table>
@@ -88,12 +89,14 @@
       </table>
   </body>
       <section>
+        <!-- Beaucoup de texte donc aeration du code avec des sauts de ligne pas forcément nessecaire mais plus lisible pour correction éval -->
         <h1>À propos de EasyTek17</h1>
         <p>
           EasyTek17 est une entreprise fondée en 2017, spécialisée dans la vente et la réparation d'ordinateurs. Notre
           engagement est de fournir des solutions accessibles et de qualité à tous nos clients.
         </p>
         <h2>Histoire de EasyTek17</h2>
+        <!-- strong pour indiquer au robot que notre texte est important, je veux que cette phrase remonte -->
         <p><strong>EasyTek17 : Une Histoire de Passion et d'Innovation</strong></p>
         <p>
           À Lagord, une petite ville charmante, se trouve une entreprise qui a su se démarquer par son expertise et son
@@ -124,7 +127,6 @@
           chez lui.
         </p>
       </section>
-
       <section>
         <h2>Notre Engagement</h2>
         <p>
@@ -150,8 +152,8 @@
     </main>
     <footer>
       <div id="newsletter">
-        <h2>Inscrivez-vous à notre Newsletter</h2>
-        <img src="icone2_easytek17.png" alt="Logo Contact" class="icon" />
+        <h3>Inscrivez-vous à notre Newsletter</h3>
+        <img src="icone2_easytek17.png" alt="Logo Contact" title="Logo EasyTek17" class="icon" />
         <form action="submit_newsletter.php" method="post">
             <input type="email" name="email" placeholder="Entrez votre e-mail" required>
             <button type="submit">S'inscrire</button>
